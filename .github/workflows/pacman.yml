@@ -1,4 +1,4 @@
-name: Generate Contribution Animation
+name: Generate Pac-Man Contribution Graph
 
 on:
   schedule:
@@ -21,8 +21,7 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      # Generates snake & pacman style contribution SVG
-      - name: generate github-contribution-grid-snake.svg
+      - name: generate pacman contribution graph svg
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: RifqiAqil-ops
@@ -30,8 +29,7 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      # Push to output branch
-      - name: push github-contribution-grid-snake.svg to output branch
+      - name: push contribution graph svg to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output

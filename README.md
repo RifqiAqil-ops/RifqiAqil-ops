@@ -190,7 +190,7 @@ const developer = {
 
 <br/>
 
-## 📊 GITHUB TELEMETRY & STATS
+## 📊 GITHUB STATS
 
 <div align="center">
 
@@ -213,10 +213,10 @@ const developer = {
 
 <br/>
 
-## 🎮 CONTRIBUTION ACTIVITY GRAPH
+## 🎮 PAC-MAN CONTRIBUTION GRAPH
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/RifqiAqil-ops/RifqiAqil-ops/output/github-contribution-grid-snake-dark.svg" alt="Contribution Graph" width="100%" />
+  <img src="https://raw.githubusercontent.com/RifqiAqil-ops/RifqiAqil-ops/output/github-contribution-grid-snake-dark.svg" alt="Pac-Man Contribution Graph" width="100%" />
 </div>
 
 <br/>
@@ -249,8 +249,8 @@ const developer = {
   <p>Feel free to reach out for collaborations, questions, or project inquiries.</p>
 
   <p>
-    <a href="mailto:rifqiaqil.ops@gmail.com">
-      <img src="https://img.shields.io/badge/EMAIL-rifqiaqil.ops%40gmail.com-B00020?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <a href="mailto:rifqiaqil822@gmail.com">
+      <img src="https://img.shields.io/badge/EMAIL-rifqiaqil822%40gmail.com-B00020?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
     </a>
     <a href="https://github.com/RifqiAqil-ops">
       <img src="https://img.shields.io/badge/GITHUB-@RifqiAqil--ops-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile" />
