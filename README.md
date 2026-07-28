@@ -216,7 +216,7 @@ const developer = {
 ## 🎮 PAC-MAN CONTRIBUTION GRAPH
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/RifqiAqil-ops/RifqiAqil-ops/output/github-contribution-grid-snake-dark.svg" alt="Pac-Man Contribution Graph" width="100%" />
+  <img src="./assets/pacman-graph.svg" alt="Pac-Man Contribution Graph" width="100%" />
 </div>
 
 <br/>

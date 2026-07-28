@@ -21,18 +21,18 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      - name: generate pacman contribution graph svg
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Generate Pac-Man Contribution Graph
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: RifqiAqil-ops
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            assets/pacman-graph.svg?palette=github-dark
 
-      - name: push contribution graph svg to output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+      - name: Commit & Push Pac-Man Graph to Main Branch
+        uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          commit_message: "chore: update daily pac-man contribution graph"
+          file_pattern: "assets/pacman-graph.svg"
