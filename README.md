@@ -1,6 +1,6 @@
 <div align="center">
 
-  <!-- Header Banner SVG -->
+  <!-- Header Banner SVG with Holographic Glow & Particles -->
   <img src="./assets/header-banner.svg" alt="Rifqi Aqil Header Banner" width="100%" />
 
   <br/><br/>
@@ -190,24 +190,20 @@ const developer = {
 
 <br/>
 
-## 📊 GITHUB STATS
+## 📊 GITHUB TELEMETRY & STATS
 
 <div align="center">
 
   <table border="0">
     <tr>
       <td>
-        <img src="https://github-readme-stats.vercel.app/api?username=RifqiAqil-ops&show_icons=true&theme=dark&bg_color=090909&title_color=B00020&text_color=a1a1aa&icon_color=B00020&border_color=27272a&hide_border=false" alt="GitHub Stats" height="170" />
+        <img src="./assets/github-stats.svg" alt="GitHub Stats" width="380" />
       </td>
       <td>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RifqiAqil-ops&layout=compact&theme=dark&bg_color=090909&title_color=B00020&text_color=a1a1aa&icon_color=B00020&border_color=27272a&hide_border=false" alt="Top Languages" height="170" />
+        <img src="./assets/top-languages.svg" alt="Top Languages" width="380" />
       </td>
     </tr>
   </table>
-
-  <br/>
-
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=RifqiAqil-ops&theme=dark&background=090909&fire=B00020&ring=B00020&stroke=27272a&currStreakNum=ffffff&sideNums=a1a1aa&dates=71717a" alt="Contribution Streak" width="95%" />
 
 </div>
 
@@ -217,10 +213,10 @@ const developer = {
 
 <br/>
 
-## 🐍 CONTRIBUTION ACTIVITY
+## 🎮 CONTRIBUTION ACTIVITY GRAPH
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/RifqiAqil-ops/RifqiAqil-ops/output/github-contribution-grid-snake-dark.svg" alt="Snake Contribution Graph" width="100%" />
+  <img src="https://raw.githubusercontent.com/RifqiAqil-ops/RifqiAqil-ops/output/github-contribution-grid-snake-dark.svg" alt="Contribution Graph" width="100%" />
 </div>
 
 <br/>
