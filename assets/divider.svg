@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 24" width="100%" height="24">
+  <defs>
+    <linearGradient id="dividerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="transparent" />
+      <stop offset="15%" stop-color="rgba(176, 0, 32, 0.2)" />
+      <stop offset="50%" stop-color="#B00020" />
+      <stop offset="85%" stop-color="rgba(176, 0, 32, 0.2)" />
+      <stop offset="100%" stop-color="transparent" />
+    </linearGradient>
+    <style>
+      @keyframes pulseBeam {
+        0% { transform: translateX(-100%); }
+        100% { transform: translateX(850px); }
+      }
+      .laser-pulse {
+        animation: pulseBeam 4s linear infinite;
+      }
+    </style>
+  </defs>
+  <!-- Main Static Divider Line -->
+  <line x1="0" y1="12" x2="850" y2="12" stroke="url(#dividerGrad)" stroke-width="1.5" opacity="0.6" />
+  <!-- Center Diamond Accent -->
+  <polygon points="425,7 430,12 425,17 420,12" fill="#B00020" />
+  <!-- Traveling Laser Dot Pulse -->
+  <circle class="laser-pulse" cx="0" cy="12" r="2.5" fill="#ffffff" />
+</svg>
